@@ -45,7 +45,7 @@ img {
     color: #2e2f42;
 }
 
-.link-navigation {
+.menu-link-items {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +53,7 @@ img {
     color: #2e2f42;
 }
 
-.link-navigation:hover,:focus {
+.menu-link-items:hover,:focus {
     color: #404bbf;
 }
 
@@ -98,8 +98,8 @@ img {
     gap: 40px;
 }
 
-.menu-link-list {
-    padding: 24px 0px;
+ .menu-link-items {
+    padding: 24px 0px 24px 0px;
 }
 
 .address-list {
