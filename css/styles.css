@@ -23,6 +23,10 @@ section {
     padding-bottom: 120px;
 }
 
+img {
+    display: block;
+}
+
 .conteiner {
     max-width: 1158px;
     padding-left: 15px;
@@ -76,7 +80,13 @@ section {
 
 
 .conteiner-header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner-header .conteiner {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .conteiner-nav-logo {
@@ -84,23 +94,22 @@ section {
     align-items: center;
 }
 
-.conteiner-nav {
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+.logo-web {
+    margin-right: 76px;
 }
 
-.nav-list {
+.menu-nav {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
+}
 
+.link-navigation {
+    padding: 24px 0px;
 }
 
 .address-list {
     display: flex;
     gap: 40px;
-    padding-left: 332px;
 }
 
 
