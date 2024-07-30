@@ -138,6 +138,21 @@ section {
     padding: 68px 316px 172px 316px;
 }
 
+.conteiner-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 48px 476px 68px 475px;
+}
+
+.order-service {
+    padding: 16px 32px;
+    background: #4d5ae5;
+}
+
 
 /*section feature*/
 .features {
@@ -161,7 +176,7 @@ section {
 
 .features-list {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 24px;
 }
