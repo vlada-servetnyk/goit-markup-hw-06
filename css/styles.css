@@ -340,7 +340,7 @@ padding: 188px 316px;
     max-width: 232px;
 }
 
-.social-link-items {
+.social-link-list .social-link-items {
     display: flex;
     align-items: center;
     justify-content: center;
