@@ -720,6 +720,10 @@ color: #f4f4fd;
     margin-bottom: 8px;
 }
 
+.wrapper-form {
+    margin-bottom: 8px;
+}
+
 .modal-form-label {
     font-size: 12px;
     line-height: 1.17;
@@ -821,7 +825,7 @@ color: #f4f4fd;
     fill: transparent;
 }
 
-.checkbox-input:checked+.modal-label-checkbox>.checkbox-span {
+.checkbox-input:checked+.modal-label-checkbox .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
