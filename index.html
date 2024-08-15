@@ -427,8 +427,79 @@
             </li>
           </ul>
         </div>
+
+        <div class="email">
+          <form class="form">
+            <label class="form-label"
+              >Subscribe
+              <input class="form-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+          </form>
+
+          <button class="btn-email" type="submit">
+            Subscribe
+            <svg class="icon-telegram" width="24" height="24">
+              <use href="./images/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <!--#endregion section footer-->
+
+    <!--#region modal window-->
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="btn-close" type="button">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <label class="modal-form-label"
+            >Name
+            <input class="modal-form-input" name="text_modal" type="text" />
+            <svg class="modal-icon" width="13" height="13">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label"
+            >Phone
+            <input class="modal-form-input" name="tel_modal" type="tel" />
+            <svg class="modal-icon" width="13" height="13">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label"
+            >Email
+            <input class="modal-form-input" name="email_modal" type="email" />
+            <svg class="modal-icon" width="13" height="13">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label class="modal-form-label"
+            >Comment
+            <textarea class="modal-textarea" name="textarea_modal" rows="5" placeholder="Text input"></textarea>
+          </label>
+        </form>
+
+        <form class="modal-form-checkbox">
+          <label class="modal-label-checkbox">
+            <input class="visually-hidden" type="checkbox" name="checkbox" />
+
+            <svg class="icon-checkbox" width="16" height="16">
+              <use href="./images/icons.svg#icon-checkmark"></use>
+            </svg>
+
+            <span class="modal-checkbox-span">I accept the terms and conditions of the <span class="link-privat-police">Privacy Policy</span></span>
+          </label>
+        </form>
+
+        <button class="btn-modal" type="submit">Send</button>
+      </div>
+    </div>
+    <!--#endregion modal window-->
   </body>
 </html>
