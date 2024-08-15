@@ -825,7 +825,7 @@ color: #f4f4fd;
     fill: transparent;
 }
 
-.checkbox-input:checked+.modal-label-checkbox>.checkbox-span .icon-checkbox{
+.checkbox-input:checked+.modal-label-checkbox>.checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
